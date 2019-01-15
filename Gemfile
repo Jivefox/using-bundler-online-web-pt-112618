@@ -1,7 +1,9 @@
 source "https://rubygems.org"
+
+gem "hashie"
 gem "rspec"
 gem "sinatra"
-gem "hashie", git: 'https://github.com/intridea/hashie'
+
  
 group :development do
 gem "pry"
